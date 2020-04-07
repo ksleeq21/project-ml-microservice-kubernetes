@@ -40,3 +40,37 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+
+---
+
+## File explanation
+
+### Source code
+
+1. app.py: Provide REST API to run ML model with parameters and return a prediction
+
+### Scripts
+
+1. run_docker.sh: Create a docker image and run a docker image
+2. upload_docker.sh: Upload a docker image to ksleeq21's Docker Hub
+3. run_kubernetes.sh: Run a Docker Hub container with kubernetes
+4. make_prediction.sh: Run a POST REST API to get a prediction
+
+### Dockerfile
+
+1. Dockerfile: A text document that contains commands to assemple an image
+
+### Set up files
+
+1. requirements.txt: A text document that contains required Python libraries and versions to run a program
+2. Makefile: A text document that directs Make on how to setup, install and lint a program
+
+### Circleci file
+
+1. config.yml: CircleCI configuration file
+
+### output_txt_files
+
+1. docker_out.txt: Terminal output of execution of docker and make_prediction.sh script
+2. kubernetes_out.txt: Terminal output of execution of run_kubernetes.sh script and make_prediction.sh script
+
