@@ -4,7 +4,7 @@
 # Assumes that an image is built via `run_docker.sh`
 
 # Create dockerpath
-dockerpath=ml-us-k8
+dockerpath=ksleeq21/ml-us-k8
 
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"

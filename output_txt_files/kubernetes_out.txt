@@ -1,1 +1,15 @@
-<paste log output from Kubernetes-mediated prediction, here>
+(.project-ml-microservice-kubernetes) (base) Kangsans-MacBook-Pro:project-ml-microservice-kubernetes klee$ sh run_kubernetes.sh 
+pod/project-ml-microservice-k8 created
+NAME                         READY   STATUS              RESTARTS   AGE
+project-ml-microservice-k8   0/1     ContainerCreating   0          0s
+error: unable to forward port because pod is not running. Current status=Pending
+(.project-ml-microservice-kubernetes) (base) Kangsans-MacBook-Pro:project-ml-microservice-kubernetes klee$ sh run_kubernetes.sh 
+Error from server (AlreadyExists): pods "project-ml-microservice-k8" already exists
+NAME                         READY   STATUS    RESTARTS   AGE
+project-ml-microservice-k8   1/1     Running   0          8s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
